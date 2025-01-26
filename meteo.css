@@ -1,0 +1,149 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-image:url(/asset/img/5182912.jpg);
+}
+
+
+.container-fluid{
+    
+    display:flex;
+    align-items: start;
+ 
+    
+    
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1B7272;
+}
+.search{
+    margin-top: 30PX;
+    margin-right: 30PX;
+    
+    
+}
+
+    
+
+.nv{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 150px;
+   height: 150px;
+
+   margin-bottom: -50PX;
+   
+ 
+
+}
+.weather-card {
+    display: flex;
+    background-color: rgba(248, 249, 250, 0.5); 
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.weather-card h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.weather-card p {
+    margin: 5px ;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+.ser{
+    height: 30PX;
+    width: 100PX;
+}
+.but{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.serch-img{
+    width: 40px;
+    height: 40px;
+    
+} 
+.weather-card{
+    width: 150PX;
+    height: 100PX;
+    
+}
+.weather-card{
+display:flex;
+flex-direction: column;
+align-items: center;
+height: 200PX;
+margin-left: 20PX;
+margin-top: 50PX;
+
+
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.inpubutt{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50PX;
+}
+.form-control{
+    border-radius: 10PX;
+    WIDTH: 200PX;
+}
+.city{
+    font-size: 30PX;
+    color: #005858;
+    display: flex;
+    justify-content: center;
+
+  
+}
+
+.meteo{
+    font-size: 20PX;
+    color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-weight: bold;
+
+}
+.temp{
+    margin-top: -20PX;
+}
+.humidity{
+    margin-top: -10PX; 
+}
+.wind{
+    margin-top:-10px ;
+}
+.tout-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.last-cards{
+display: flex;
+
+}
